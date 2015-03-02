@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<testsuites name="Tests" time="24.537" tests="21" failures="1" disabled="0" errors="0">
+  <testsuite name="UI Screenshots" time="23.455" tests="4" failures="0" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:26.172Z">
+    <testsuite name="Yahoo-Homepage" time="7.878" tests="2" failures="0" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:33.738Z">
+      <testcase name="Master Header" time="4.757"/>
+      <testcase name="Navigation-Bar" time="3.119"/>
+    </testsuite>
+    <testsuite name="Yahoo-Search" time="5.931" tests="2" failures="0" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:41.616Z">
+      <testcase name="Header" time="3.19"/>
+      <testcase name="SideBar" time="2.741"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="Visual regression tests" time="1.065" tests="17" failures="1" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:49.627Z">
+    <testcase name="initialize tests" time="0.002"/>
+    <testsuite name="Kobold" time="0.589" tests="16" failures="1" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:50.101Z">
+      <testsuite name="firefox - Yahoo Homepage Master Header - 1" time="0.121" tests="4" failures="0" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:50.101Z">
+        <testcase name="should load the approved screen" time="0.018"/>
+        <testcase name="should load the build screen" time="0.012"/>
+        <testcase name="should load the configuration of screen" time="0"/>
+        <testcase name="should be similar" time="0.088"/>
+      </testsuite>
+      <testsuite name="firefox - Yahoo Homepage Navigation Bar - 1" time="0.193" tests="4" failures="1" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:50.222Z">
+        <testcase name="should load the approved screen" time="0.017"/>
+        <testcase name="should load the build screen" time="0.015"/>
+        <testcase name="should load the configuration of screen" time="0"/>
+        <testcase name="should be similar" time="0.158">
+          <failure type="Screens are different for firefox_Yahoo-Homepage-Navigation-Bar_1" message="Error: Screens are different for firefox_Yahoo-Homepage-Navigation-Bar_1&#xA;    at /Users/erz/code/marcelerz/visual-regression-only-example/node_modules/kobold/lib/kobold.js:453:12&#xA;    at /Users/erz/code/marcelerz/visual-regression-only-example/node_modules/kobold/node_modules/promise/lib/core.js:33:15&#xA;    at flush (/Users/erz/code/marcelerz/visual-regression-only-example/node_modules/kobold/node_modules/promise/node_modules/asap/asap.js:27:13)&#xA;    at process._tickCallback (node.js:419:13)"/>
+        </testcase>
+      </testsuite>
+      <testsuite name="firefox - Yahoo Search Header - 1" time="0.063" tests="4" failures="0" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:50.415Z">
+        <testcase name="should load the approved screen" time="0.005"/>
+        <testcase name="should load the build screen" time="0.007"/>
+        <testcase name="should load the configuration of screen" time="0"/>
+        <testcase name="should be similar" time="0.051"/>
+      </testsuite>
+      <testsuite name="firefox - Yahoo Search SideBar - 1" time="0.212" tests="4" failures="0" disabled="0" skipped="0" errors="0" hostname="stoketoday-lm" timestamp="2015-02-12T10:01:50.478Z">
+        <testcase name="should load the approved screen" time="0.02"/>
+        <testcase name="should load the build screen" time="0.021"/>
+        <testcase name="should load the configuration of screen" time="0"/>
+        <testcase name="should be similar" time="0.171"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
