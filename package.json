@@ -1,15 +1,15 @@
 {
-  "name": "visual-regression-example",
+  "name": "visual-regression",
   "version": "1.0.0",
   "description": "Example project for Visual-Regression Testing with Kobold",
   "scripts": {
     "test": "node_modules/preceptor/bin/preceptor rule-book.js"
   },
-  "homepage": "https://github.com/marcelerz/visual-regression-example",
-  "bugs": "https://github.com/marcelerz/visual-regression-example/issues",
+  "homepage": "https://github.com/preceptorjs/visual-regression",
+  "bugs": "https://github.com/preceptorjs/visual-regression/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marcelerz/visual-regression-example.git"
+    "url": "https://github.com/preceptorjs/visual-regression.git"
   },
   "keywords": [
     "testing",
