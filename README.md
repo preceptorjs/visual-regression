@@ -1,5 +1,7 @@
 # Visual-Regression Example with Kobold
 
+[![Gitter Support](https://img.shields.io/badge/Support-Gitter_IM-yellow.svg)](https://gitter.im/preceptorjs/support)
+
 ## Installation
 
 * `git clone <repository-url>` this repository
